@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -19,6 +18,8 @@ li {
     margin: 0;
     padding: 0;
 	float: left;
+	margin-right:8%;
+	margin-left: 8.1%;
 }
 
 p {
@@ -28,13 +29,15 @@ p {
 
 img {
     width: 100%;
-    height: auto;
+    height: 70%;
+
 }
+
 
 a {
 	color:white;
 	text-decoration:none;
-	padding: 88px;
+	padding: ;
 }
 header{
 	text-align:center;
@@ -48,11 +51,18 @@ header{
 	padding:10px;
 	text-align:center;
 }
+.containedi {
+	padding:10px;
+	text-align:center;
+	transition: transform .2s;
+}
+.containedi:hover {
+	transform: scale(1.02);
+}
 #links{
 	grid-column: 1 / 4;
 	background-color: black;
 }
 #copyright{
 	grid-column: 1 / 4;
-	grid-row-start: 4;
 }
