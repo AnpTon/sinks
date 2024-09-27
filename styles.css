@@ -5,11 +5,6 @@ body {
 	background-color: #697565;
 }
 
-h1 {
-    margin: 0;
-
-}
-
 p {
     margin: 0;
     padding: 0;
@@ -18,15 +13,23 @@ p {
 header{
 	color:white;
 	text-align:center;
-	background-color: black;
+	background-color: #10120d;
+	width:100%;
+	margin:0;
+	padding:5px;
+}
+h1{
+	margin: 0;
+	padding: 0;
 }
 
 .contained{
 	display:flex;
-	padding:10px;
+	padding:5px;
 	text-align:center;
 	background-color: #3C3D37;
 	justify-content: space-evenly;
+	width:100%;
 
 }
 .contained ul {
@@ -40,13 +43,12 @@ header{
     margin: 0;
     padding: 0;
 	text-align: center;
-	flex:1;
+	flex: 1;
 }
 .contained a {
 	display:block;
 	color:white;
 	text-decoration:none;
-	padding: 5px ;
 }
 .contained a:hover{
 	color: #181C14;
@@ -64,9 +66,8 @@ header{
 
 .containedi {
 	flex:1 1 20%;
-	min-width: 200px;
+	min-width: 300px;
 	padding: 5px;
-	margin:10px;
 	text-align:center ;
 	transition: transform .2s;
 	overflow: auto;
