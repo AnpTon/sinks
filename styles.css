@@ -60,7 +60,6 @@ header{
 	padding:5px;
 	gap: 5px;
 	background-color: #ECDFCC;
-
 }
 
 .containedi {
@@ -70,6 +69,7 @@ header{
 	margin:10px;
 	text-align:center ;
 	transition: transform .2s;
+	overflow: auto;
 }
 .containedi:hover {
 	transform: scale(1.02);
@@ -84,6 +84,6 @@ header{
 }
 
 #copyright{
-	margin-top:15px;
+	margin-top:10px;
 	text-align: center;
 }
